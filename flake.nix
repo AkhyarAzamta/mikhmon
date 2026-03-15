@@ -1,5 +1,5 @@
 {
-  description: "A flake to run Mikhmon on NixOS";
+  description = "A flake to run Mikhmon on NixOS";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
