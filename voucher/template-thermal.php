@@ -44,33 +44,28 @@ ditambahkan ke style di tag html yang ingin dikasi warna. untuk template ini war
 
 */
 
-if($getsprice == "3000"){ $color = "#666";} // jika harga == "1000" maka warna = "#01579B"
+if($getsprice == "1000"){ $color = "#C2185B"; $bg1 = "#F8BBD0"; } // Pink
 
-elseif($getsprice == "1000"){ $color = "#FF1493";}
+elseif($getsprice == "2000"){ $color = "#7B1FA2"; $bg1 = "#E1BEE7"; } // Purple
 
-elseif($getsprice == "2000"){ $color = "#8B008B";}
+elseif($getsprice == "3000"){ $color = "#1976D2"; $bg1 = "#BBDEFB"; } // Blue
 
-elseif($getsprice == "3000"){ $color = "#666";}
+elseif($getsprice == "5000"){ $color = "#388E3C"; $bg1 = "#C8E6C9"; } // Green
 
-elseif($getsprice == "5000"){ $color = "#FF4500";}
+elseif($getsprice == "10000"){ $color = "#F57C00"; $bg1 = "#FFE0B2"; } // Orange
 
-elseif($getsprice == "10000"){ $color = "#E65100";}
+elseif($getsprice == "15000"){ $color = "#5D4037"; $bg1 = "#D7CCC8"; } // Brown
 
-elseif($getsprice == "15000"){ $color = "#228B22";}
+elseif($getsprice == "20000"){ $color = "#455A64"; $bg1 = "#CFD8DC"; } // Blue Grey
 
-elseif($getsprice == "20000"){ $color = "#008000";}
+elseif($getsprice == "30000"){ $color = "#E64A19"; $bg1 = "#FFCCBC"; } // Deep Orange
 
-elseif($getsprice == "30000"){ $color = "#FF00FF";}
+elseif($getsprice == "60000"){ $color = "#D32F2F"; $bg1 = "#FFCDD2"; } // Red
 
-elseif($getsprice == "60000"){ $color = "#E60C00";} 
-
-elseif($getsprice == "70000"){ $color = "#FF0000";} 
-
-// ini yang dicopy untuk menambah warna berdarsarkan harga, kemudian paste di atas baris // else color
+elseif($getsprice == "70000"){ $color = "#303F9F"; $bg1 = "#C5CAE9"; } // Indigo
 
 // else color
-
-else{ $color = "#BA68C8";}
+else{ $color = "#616161"; $bg1 = "#F5F5F5"; } // Grey
 
 ?>  
 

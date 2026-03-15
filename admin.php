@@ -19,7 +19,8 @@ session_start();
 // hide all error
 error_reporting(0);
 
-ob_start("ob_gzhandler");
+// ob_start("ob_gzhandler");
+ob_start();
 
 // check url
 $url = $_SERVER['REQUEST_URI'];

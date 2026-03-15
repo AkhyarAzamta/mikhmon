@@ -11,11 +11,12 @@
       let
         pkgs = nixpkgs.legacyPackages.${system};
         php = pkgs.php82.buildEnv {
-          extensions = ({ enabled, all }: enabled ++ [ all.session all.gd all.curl all.mbstring ]);
+          extensions = ({ enabled, all }: enabled ++ [ all.session all.gd all.curl all.mbstring all.zlib ]);
           extraConfig = ''
             memory_limit = 256M
             post_max_size = 64M
             upload_max_filesize = 64M
+            session.save_path = "/home/azam/mikhmon/sessions"
           '';
         };
       in
